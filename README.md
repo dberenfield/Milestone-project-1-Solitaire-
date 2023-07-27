@@ -1,26 +1,4 @@
 # Milestone-project-1-Solitaire-
-
-
-
-P1BG - Project Planning Worksheet
-
-For this project, the client has asked your team to make a web game for one of its divisions. You need to plan some basic aspects of the game, which you will also copy/reproduce on the professionally written README.md file required for MVP.
-
-Two Options:
-
-Make sure to copy the GDocs template below, fill it out, copy a shared link with editor permissions, and paste it in a Canvas email to either Chris or the Associate Instructor.
-
-OR
-
-If you are comfortable enough with using .git and GitHub, use this template for the README.md in your own git repo for the course, fill out the categories shown below in the README.md, and push the updated README.md to GitHub. 
-
-Using this template for the README.md file will be required by the end of the course in any case, but it’s something that doesn’t need to be finalized until the course ends. 
-
-Finally, make sure the link to the repo is added to this document: P1BG - NORCS-12 - Milestone 1 Project - Repos/Deployed Sites 
-
-
-GDocs Template:
-
 Title of Project  
 Solitaire
 
