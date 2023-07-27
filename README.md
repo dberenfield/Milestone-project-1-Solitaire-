@@ -21,13 +21,7 @@ The order of cards gets altered and they get closer to winning or losing the gam
 
 Describe the logic that evaluates the player's victory/loss/progress status.
 If all of the cards are stacked in order on their designated suit then the player
-______________________________________________________________
 Wins the game. If there are no more options left with the cards usable at the time 
-______________________________________________________________
-	Then the player loses.
-______________________________________________________________
+Then the player loses.
 
-______________________________________________________________
-
-______________________________________________________________
 
