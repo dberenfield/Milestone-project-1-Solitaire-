@@ -1,4 +1,4 @@
-# Milestone-project-1-Solitaire-
+# Milestone-project-1-Solitaire
 Title of Project  
 Solitaire
 
