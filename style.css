@@ -1,0 +1,9 @@
+html {
+   background-image: url(assets/images/shutterstock_1519710587.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}   
+
+ 
