@@ -6,4 +6,112 @@ html {
   background-size: cover;
 }   
 
- 
+* { 
+    box-sizing: border-box;
+  }
+
+  
+  .game-button {
+    width: 100px;
+    height: 40px;
+  }
+  #field {
+    position: relative;
+    display: grid;
+    grid-template:
+      "f1 f2 f3 f4 f5 wp st" 1fr
+      "tb tb tb tb tb tb tb" 4fr;
+    grid-row-gap: 5%;
+    grid-column-gap: 5px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 500px;
+  }
+  #tb {
+    display: grid;
+    grid-template: "a1 a2 a3 a4 a5 a6 a7";
+  }
+  .aligned {
+    width: 6.5rem;
+    height: 9.5rem;
+  }
+  #f1,
+  #f2,
+  #f3,
+  #f4,
+  #wp {
+    border: 2px solid #3e130c;
+    background:rgba(60,213,0,0.2);
+  }
+  ul {
+    list-style: none;
+  }
+  li {
+    display: inline;
+  }
+  /* Much ado about cards astetics */
+  .card {
+    position: relative;
+    border: 2px solid rgb(26,86,106);
+    background-color: #fff;
+    width: 6.5rem;
+    height: 9.3rem;
+  }
+  .red {
+    color: #900c3f;
+  }
+  .card-content {
+    width: 100%;
+    font-size: 3.5rem;
+    text-align: center;
+  }
+  .card-top {
+    font-size: 1.5rem;
+    padding: 15% 30%;
+    height: 25px;
+  }
+  .cardback {
+    position: relative;
+    border: 2px solid rgb(26,86,106);
+    background-color: rgba(49,161,196,1);
+    color: rgba(235,190,24,1);
+    font-size: 2.3rem;
+    width: 6.5rem;
+    height: 9.3rem;
+  }
+  .stacked {
+    margin-top: -110px;
+  }
+  
+  /* Winner screen */
+  .winner {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(15, 129, 12);
+    background: radial-gradient(
+      circle,
+      rgba(15, 129, 12, 1) 10%,
+      rgba(30, 77, 11, 1) 53%
+    );
+    z-index: 100;
+    color: #ffffff;
+  }
+  .content {
+    position: fixed;
+    top: 35%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 4em;
+  }
+  .content input[type="button"] {
+    font-size: 0.7em;
+    background-color: #35a0cc;
+    border: 1px solid white;
+  }
+  

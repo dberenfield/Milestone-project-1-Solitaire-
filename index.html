@@ -4,10 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>Document</title>
 </head>
 <body>
-   
-    
+    <div id="menu"> 
+        <nav> 
+          <ul>
+            <li><button class="game-button" id="new-game" name="newGame" onClick="newGame()"> New Game </button></li>
+            <li><button class="game-button" id="restart" name="restartGame" onClick="restartGame()"> Restart Game </button></li>
+          </ul>
+        </nav>
+      </div>
+      <div id="field">
+        <div class="aligned" id="f1" style="grid-area:f1;"></div>
+        <div class="aligned" id="f2" style="grid-area:f2;"></div>
+        <div class="aligned" id="f3" style="grid-area:f3;"></div>
+        <div class="aligned" id="f4" style="grid-area:f4;"></div>
+        <div class="aligned" id="f5" style="grid-area:f5;"></div>
+        <div class="aligned" id="wp" style="grid-area:wp;"></div>
+        <div class="aligned" id="st" style="grid-area:st;" onClick="searchStock()"></div>
+        
+        <div id="tb" style="grid-area:tb;">
+          <div class="aligned" id="a1" style="grid-area:a1;"></div>
+          <div class="aligned" id="a2" style="grid-area:a2;"></div>
+          <div class="aligned" id="a3" style="grid-area:a3;"></div>
+          <div class="aligned" id="a4" style="grid-area:a4;"></div>
+          <div class="aligned" id="a5" style="grid-area:a5;"></div>
+          <div class="aligned" id="a6" style="grid-area:a6;"></div>
+          <div class="aligned" id="a7" style="grid-area:a7;"></div>
+        </div>
+      </div>
+      
+      <div class="winner" id="winner">
+        <div class="content">
+           <h1> You Win! </h1> 
+          <input type="button" value ="New Game" name="newGame" onclick="newGame()" />
+        </div>
+      </div>
 </body>
 </html>
