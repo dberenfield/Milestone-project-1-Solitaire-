@@ -36,11 +36,7 @@ html {
     width: 6.5rem;
     height: 9.5rem;
   }
-  #f1,
-  #f2,
-  #f3,
-  #f4,
-  #wp {
+  #f1, #f2, #f3, #f4, #wp {
     border: 2px solid #3e130c;
     background:rgba(60,213,0,0.2);
   }
